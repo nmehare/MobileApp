@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button startBtn;
+    private Button startBtn, bookmarkBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent categoryIntent = new Intent( MainActivity.this,CategoriesActivity.class);
                 startActivity(categoryIntent);
+            }
+        });
+
+        bookmarkBtn = findViewById(R.id.bookmarks_btn);
+        bookmarkBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent bookmarksIntent = new Intent( MainActivity.this,BookmarkActivity.class);
+                startActivity(bookmarksIntent);
             }
         });
     }

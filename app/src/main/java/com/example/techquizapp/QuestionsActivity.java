@@ -75,12 +75,6 @@ public class QuestionsActivity extends AppCompatActivity {
         list  = new ArrayList<>();
 //        list.add(new QuestionModel("question 1", "a", "b", "c", "d", "a"));
 //        list.add(new QuestionModel("question 2", "a", "b", "c", "d", "a"));
-//        list.add(new QuestionModel("question 3", "a", "b", "c", "d", "b"));
-//        list.add(new QuestionModel("question 4", "a", "b", "c", "d", "b"));
-//        list.add(new QuestionModel("question 5", "a", "b", "c", "d", "a"));
-//        list.add(new QuestionModel("question 6", "a", "b", "c", "d", "a"));
-//        list.add(new QuestionModel("question 7", "a", "b", "c", "d", "a"));
-//        list.add(new QuestionModel("question 8", "a", "b", "c", "d", "a"));
 
 
             loadingDialog.show();
