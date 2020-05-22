@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187423206442",
+    "firebase_url": "https://techquiz-8d5e4.firebaseio.com",
+    "project_id": "techquiz-8d5e4",
+    "storage_bucket": "techquiz-8d5e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187423206442:android:34218fad1f809956786753",
+        "android_client_info": {
+          "package_name": "com.example.techquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187423206442-m4khf2spdmvavt6u1fq92mf203vimcqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd-FX8yySjbi07BoiUnG4QVuAATa7g6HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187423206442-m4khf2spdmvavt6u1fq92mf203vimcqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
