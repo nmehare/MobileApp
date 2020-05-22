@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TechQuizApp</string>
+    <string name="app_name1">TechQuiz</string>
     <string name="sets">Sets</string>
 </resources>
