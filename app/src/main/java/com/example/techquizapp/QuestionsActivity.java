@@ -198,7 +198,7 @@ public class QuestionsActivity extends AppCompatActivity {
         for(int i = 0; i < 4; i ++){
             optionsContainer.getChildAt(i).setEnabled(enable);
             if(enable){
-                optionsContainer.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("holo_blue_dark")));
+                optionsContainer.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#178ab4")));
             }
         }
     }
