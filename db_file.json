@@ -1,0 +1,722 @@
+{
+  "Categories" : {
+    "category1" : {
+      "name" : "Java",
+      "sets" : 10,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fjava_logo.png?alt=media&token=696b553b-f8cd-4a69-bfda-e8941d6ad93e"
+    },
+    "category10" : {
+      "name" : "PHP",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fphp_logo.png?alt=media&token=f719aa1c-aec2-4c78-b299-aa57911cfc84"
+    },
+    "category11" : {
+      "name" : "SQL",
+      "sets" : 10,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fgo_logo.png?alt=media&token=de276c57-f377-4aea-ab55-6146f1f42be8"
+    },
+    "category2" : {
+      "name" : "C Language",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fc_logo.png?alt=media&token=d2180d25-4e1a-4c3f-8cf2-a3377d182d42"
+    },
+    "category3" : {
+      "name" : "Python",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fpython_logo.png?alt=media&token=e0357b67-a96c-4b83-be25-7ca177c35d29"
+    },
+    "category4" : {
+      "name" : "JavaScript",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fjs_logo.png?alt=media&token=400b6a79-5d68-42d7-b7ca-e9f9d5b7cf25"
+    },
+    "category5" : {
+      "name" : "Oracle",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Foracle_logo.png?alt=media&token=224a534f-b0d9-45d7-9338-220f06a613a8"
+    },
+    "category6" : {
+      "name" : "MongoDB",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fmongodb_logo.png?alt=media&token=67cb7655-fbc5-44e9-9f6f-3023b1b89d86"
+    },
+    "category7" : {
+      "name" : "Angular",
+      "sets" : 10,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fangular_logo.png?alt=media&token=e81d183b-ed29-48df-bb97-2e680c3fba18"
+    },
+    "category8" : {
+      "name" : "React",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Freact_logo.png?alt=media&token=5a1d2e78-3f6c-4436-9282-98f33cb80cd1"
+    },
+    "category9" : {
+      "name" : "Vue",
+      "sets" : 5,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/techquiz-8d5e4.appspot.com/o/categories%2Fvue_logo.png?alt=media&token=16ba6892-4d1a-4d79-bbca-f20b3d9ba343"
+    }
+  },
+  "SETS" : {
+    "Java" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ConcurrentSkipListSet",
+          "optionA" : "HashSet",
+          "optionB" : "ConcurrentSkipListSet",
+          "optionC" : "LinkedHashSet",
+          "optionD" : "CopyOnWriteArraySet",
+          "question" : "Which Set class should be most popular in a multi-threading environment, considering performance constraint?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "None of the above",
+          "optionA" : "Enumeration",
+          "optionB" : "Iterator",
+          "optionC" : "Both",
+          "optionD" : "None of the above",
+          "question" : "Which allows the removal of elements from a collection?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Iterator",
+          "optionA" : "Enumeration",
+          "optionB" : "Iterator",
+          "optionC" : "ListIterator",
+          "optionD" : "None of the above",
+          "question" : "Which permits the removal of elements from a collection?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "compare()",
+          "optionA" : "compareWith",
+          "optionB" : "compareTo()",
+          "optionC" : "compare()",
+          "optionD" : "None of the above",
+          "question" : "The Comparator interface contains the method?",
+          "setNo" : 1
+        },
+        "que6" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 2
+        },
+        "que1" : {
+          "correntANS" : "CopyOnWriteMap",
+          "optionA" : "Hashtable",
+          "optionB" : "CopyOnWriteMap",
+          "optionC" : "ConcurrentHashMap",
+          "optionD" : "ConcurrentMap",
+          "question" : "Which Map class should be most popular in a multi-threading environment, considering performance constraint?",
+          "setNo" : 1
+        },
+        "que7" : {
+          "correntANS" : "All of the above",
+          "optionA" : "ConcurrentSkipListMap",
+          "optionB" : "ConcurrentHashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "All of the above",
+          "question" : "Which Map is synchronized?",
+          "setNo" : 2
+        },
+        "que8" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 2
+        },
+        "que9" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 2
+        },
+        "que10" : {
+          "correntANS" : "ConcurrentSkipListSet",
+          "optionA" : "LinkedHashSet",
+          "optionB" : "ConcurrentSkipListSet",
+          "optionC" : "TreeSet",
+          "optionD" : "CopyOnWriteArraySet",
+          "question" : "Which Set implementation is sorted and synchronized?",
+          "setNo" : 2
+        },
+        "que11" : {
+          "correntANS" : "Fail-fast",
+          "optionA" : "Fail-fast",
+          "optionB" : "Fail-safe",
+          "optionC" : "None of the above",
+          "optionD" : "All of the above",
+          "question" : "Iterator returned by LinkedList is?",
+          "setNo" : 3
+        },
+        "que12" : {
+          "correntANS" : "Fail-fast",
+          "optionA" : "Fail-fast",
+          "optionB" : "Fail-safe",
+          "optionC" : "None of the above",
+          "optionD" : "All of the above",
+          "question" : "Iterator returned by ArrayList is?",
+          "setNo" : 3
+        },
+        "que13" : {
+          "correntANS" : "Integer",
+          "optionA" : "String",
+          "optionB" : "Integer",
+          "optionC" : "Double",
+          "optionD" : "All of the above",
+          "question" : "Which of these is the most popularly used class as a key in a HashMap?",
+          "setNo" : 3
+        },
+        "que14" : {
+          "correntANS" : "O(1)",
+          "optionA" : "O(n-1)",
+          "optionB" : "O(n)",
+          "optionC" : "O(1)",
+          "optionD" : "O(2n)",
+          "question" : "Complexity of ArrayList get method",
+          "setNo" : 3
+        },
+        "que15" : {
+          "correntANS" : "TreeSet",
+          "optionA" : "LinkedHashSet",
+          "optionB" : "TreeSet",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which of these is sorted by default",
+          "setNo" : 3
+        },
+        "que16" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 4
+        },
+        "que17" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 4
+        },
+        "que18" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 4
+        },
+        "que19" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 4
+        },
+        "que20" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 4
+        },
+        "que21" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 5
+        },
+        "que22" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 10
+        },
+        "que23" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 9
+        },
+        "que24" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 8
+        },
+        "que25" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 7
+        },
+        "que26" : {
+          "correntANS" : "HashMap",
+          "optionA" : "TreeMap",
+          "optionB" : "HashMap",
+          "optionC" : "LinkedHashMap",
+          "optionD" : "ConcurrentHashMap",
+          "question" : "Which offers the best performance?",
+          "setNo" : 6
+        }
+      }
+    },
+	"Python" : {
+      "questions" : {
+        "que3" : {
+          "correntANS" : "Decision Tree",
+          "optionA" : "Regression",
+          "optionB" : "Decision Tree",
+          "optionC" : "Clustering",
+          "optionD" : "Association Rules",
+          "question" : "Consider the results of a medical experiment that aims to predict whether someone is going to develop myopia based",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Iterator",
+          "optionA" : "Permanent Segment",
+          "optionB" : "Iterator",
+          "optionC" : "ListIterator",
+          "optionD" : "None of the above",
+          "question" : "Which permits the removal of elements from a collection?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "3",
+          "optionA" : "27",
+          "optionB" : "9",
+          "optionC" : "3",
+          "optionD" : "1",
+          "question" : "What is the output of the expression : 3*1**3",
+          "setNo" : 2
+        }
+      }
+    },
+	"PHP" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "Both of the above",
+          "optionA" : "Unlike with variables, you do not need to have a constant with a $",
+          "optionB" : "Only scalar data (boolean, integer, float and string) can be contained in constants.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is correct about constants?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "rsort()",
+          "optionA" : "rsort()",
+          "optionB" : "sort()",
+          "optionC" : "shuffle()",
+          "optionD" : "reset()",
+          "question" : "Which of the following function sorts an array in reverse order?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "array_slice()",
+          "optionA" : "array_reverse()",
+          "optionB" : "array_slice()",
+          "optionC" : "array_search()",
+          "optionD" : "array_shift()",
+          "question" : "Which of the following function returns selected parts of an array?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "getTrace()",
+          "optionA" : "getMessage()",
+          "optionB" : "getCode()",
+          "optionC" : "getTrace()",
+          "optionD" : "getTraceAsString",
+          "question" : "Which of the following method of Exception class returns array of the backtrace?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "time()",
+          "optionA" : "getDate()",
+          "optionB" : "date()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which of the following method returns current date and time?",
+          "setNo" : 2
+        }
+      }
+    },
+	"Oracle" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "Background processes",
+          "optionA" : "Memory processes",
+          "optionB" : "Data processes",
+          "optionC" : "Background processes",
+          "optionD" : "None of the above",
+          "question" : "Which processes is an instance made of Oracle?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "Database related background processes)",
+          "optionB" : "Datafiles",
+          "optionC" : "Tablespaces",
+          "optionD" : "All of the above",
+          "question" : "Which of the following components comprise an Oracle architecture?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Data Segment",
+          "optionA" : "Permanent Segment",
+          "optionB" : "Data Segment",
+          "optionC" : "Object Segment",
+          "optionD" : "Class Segment)",
+          "question" : "In Oracle, which of below are types of segments?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "Segment",
+          "optionA" : "Segment",
+          "optionB" : "Data Block",
+          "optionC" : "Extend",
+          "optionD" : "Block",
+          "question" : "Which is the smallest unit of storage in an Oracle database?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "time()",
+          "optionA" : "getDate()",
+          "optionB" : "date()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Oracle database’s design is also called as Database Schema.",
+          "setNo" : 2
+        }
+      }
+    },
+	"SQL" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "Background processes",
+          "optionA" : "Memory processes",
+          "optionB" : "Data processes",
+          "optionC" : "Background processes",
+          "optionD" : "None of the above",
+          "question" : "Which processes is an instance made of Oracle?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "Database related background processes)",
+          "optionB" : "Datafiles",
+          "optionC" : "Tablespaces",
+          "optionD" : "All of the above",
+          "question" : "Which of the following components comprise an Oracle architecture?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Data Segment",
+          "optionA" : "Permanent Segment",
+          "optionB" : "Data Segment",
+          "optionC" : "Object Segment",
+          "optionD" : "Class Segment)",
+          "question" : "In Oracle, which of below are types of segments?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "Segment",
+          "optionA" : "Segment",
+          "optionB" : "Data Block",
+          "optionC" : "Extend",
+          "optionD" : "Block",
+          "question" : "Which is the smallest unit of storage in an Oracle database?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "time()",
+          "optionA" : "getDate()",
+          "optionB" : "date()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Oracle database’s design is also called as Database Schema.",
+          "setNo" : 2
+        }
+      }
+    },
+	"Angular" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionA" : "filter filter is a function which takes text as input.",
+          "optionB" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionC" : "Both of the above.",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about filter filter?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "DElement directives",
+          "optionB" : "Attribute",
+          "optionC" : "CSS",
+          "optionD" : "All of the above",
+          "question" : "On which of the following types of component can we create a custom directive?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Uppercase filter converts a text to upper case text.",
+          "optionA" : "Uppercase filter is a function which takes text as input.",
+          "optionB" : "Uppercase filter converts a text to upper case text.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about uppercase filter?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "All of teh above",
+          "optionA" : "JavaScript is a lightweight, interpreted programming language",
+          "optionB" : "JavaScript is designed for creating network-centric applications",
+          "optionC" : "JavaScript is complementary to and integrated with Java",
+          "optionD" : "All of teh above",
+          "question" : "Which of the following is correct about features of JavaScript?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "concat()",
+          "optionA" : "append()",
+          "optionB" : "concat()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which built-in method combines the text of two strings and returns a new string?",
+          "setNo" : 2
+        }
+      }
+    },
+	"Vue" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionA" : "filter filter is a function which takes text as input.",
+          "optionB" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionC" : "Both of the above.",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about filter filter?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "DElement directives",
+          "optionB" : "Attribute",
+          "optionC" : "CSS",
+          "optionD" : "All of the above",
+          "question" : "On which of the following types of component can we create a custom directive?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Uppercase filter converts a text to upper case text.",
+          "optionA" : "Uppercase filter is a function which takes text as input.",
+          "optionB" : "Uppercase filter converts a text to upper case text.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about uppercase filter?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "All of teh above",
+          "optionA" : "JavaScript is a lightweight, interpreted programming language",
+          "optionB" : "JavaScript is designed for creating network-centric applications",
+          "optionC" : "JavaScript is complementary to and integrated with Java",
+          "optionD" : "All of teh above",
+          "question" : "Which of the following is correct about features of JavaScript?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "concat()",
+          "optionA" : "append()",
+          "optionB" : "concat()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which built-in method combines the text of two strings and returns a new string?",
+          "setNo" : 2
+        }
+      }
+    },
+	"React" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionA" : "filter filter is a function which takes text as input.",
+          "optionB" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionC" : "Both of the above.",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about filter filter?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "DElement directives",
+          "optionB" : "Attribute",
+          "optionC" : "CSS",
+          "optionD" : "All of the above",
+          "question" : "On which of the following types of component can we create a custom directive?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Uppercase filter converts a text to upper case text.",
+          "optionA" : "Uppercase filter is a function which takes text as input.",
+          "optionB" : "Uppercase filter converts a text to upper case text.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about uppercase filter?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "All of teh above",
+          "optionA" : "JavaScript is a lightweight, interpreted programming language",
+          "optionB" : "JavaScript is designed for creating network-centric applications",
+          "optionC" : "JavaScript is complementary to and integrated with Java",
+          "optionD" : "All of teh above",
+          "question" : "Which of the following is correct about features of JavaScript?",
+          "setNo" : 3
+        },
+        "que6" : {
+          "correntANS" : "concat()",
+          "optionA" : "append()",
+          "optionB" : "concat()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which built-in method combines the text of two strings and returns a new string?",
+          "setNo" : 2
+        }
+      }
+    },
+	"JavaScript" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionA" : "filter filter is a function which takes text as input.",
+          "optionB" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionC" : "Both of the above.",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about filter filter?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "DElement directives",
+          "optionB" : "Attribute",
+          "optionC" : "CSS",
+          "optionD" : "All of the above",
+          "question" : "On which of the following types of component can we create a custom directive?",
+          "setNo" : 2
+        },
+        "que4" : {
+          "correntANS" : "Uppercase filter converts a text to upper case text.",
+          "optionA" : "Uppercase filter is a function which takes text as input.",
+          "optionB" : "Uppercase filter converts a text to upper case text.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about uppercase filter?",
+          "setNo" : 3
+        },
+        "que5" : {
+          "correntANS" : "All of teh above",
+          "optionA" : "JavaScript is a lightweight, interpreted programming language",
+          "optionB" : "JavaScript is designed for creating network-centric applications",
+          "optionC" : "JavaScript is complementary to and integrated with Java",
+          "optionD" : "All of teh above",
+          "question" : "Which of the following is correct about features of JavaScript?",
+          "setNo" : 4
+        },
+        "que6" : {
+          "correntANS" : "concat()",
+          "optionA" : "append()",
+          "optionB" : "concat()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which built-in method combines the text of two strings and returns a new string?",
+          "setNo" : 5
+        }
+      }
+    },
+	"C Language" : {
+      "questions" : {
+        "que2" : {
+          "correntANS" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionA" : "filter filter is a function which takes text as input.",
+          "optionB" : "ilter filter is used to filter the array to a subset of it based on provided criteria.",
+          "optionC" : "Both of the above.",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about filter filter?",
+          "setNo" : 1
+        },
+        "que3" : {
+          "correntANS" : "All of the above",
+          "optionA" : "DElement directives",
+          "optionB" : "Attribute",
+          "optionC" : "CSS",
+          "optionD" : "All of the above",
+          "question" : "On which of the following types of component can we create a custom directive?",
+          "setNo" : 1
+        },
+        "que4" : {
+          "correntANS" : "Uppercase filter converts a text to upper case text.",
+          "optionA" : "Uppercase filter is a function which takes text as input.",
+          "optionB" : "Uppercase filter converts a text to upper case text.",
+          "optionC" : "Both of the above",
+          "optionD" : "None of the above",
+          "question" : "Which of the following is true about uppercase filter?",
+          "setNo" : 1
+        },
+        "que5" : {
+          "correntANS" : "All of teh above",
+          "optionA" : "JavaScript is a lightweight, interpreted programming language",
+          "optionB" : "JavaScript is designed for creating network-centric applications",
+          "optionC" : "JavaScript is complementary to and integrated with Java",
+          "optionD" : "All of teh above",
+          "question" : "Which of the following is correct about features of JavaScript?",
+          "setNo" : 2
+        },
+        "que6" : {
+          "correntANS" : "concat()",
+          "optionA" : "append()",
+          "optionB" : "concat()",
+          "optionC" : "time()",
+          "optionD" : "None of the above",
+          "question" : "Which built-in method combines the text of two strings and returns a new string?",
+          "setNo" : 2
+        }
+      }
+	}
+  }
+}
