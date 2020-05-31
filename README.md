@@ -63,3 +63,10 @@ width="200"
 [<img src="https://user-images.githubusercontent.com/50725648/82731910-4b531480-9d4d-11ea-95cf-d726430167ea.png" align="center"
 width="200"
     hspace="10" vspace="10">](https://user-images.githubusercontent.com/50725648/82731910-4b531480-9d4d-11ea-95cf-d726430167ea.png)
+    
+## Publish your App
+Follow below steps and publish this app
+
+![publishapp](https://user-images.githubusercontent.com/50725648/83348766-cb433500-a372-11ea-955e-3b7dda660f9a.png)
+
+    
