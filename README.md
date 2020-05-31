@@ -67,7 +67,7 @@ width="200"
 ## Publish your App
 Follow below steps and publish this app
 
-<img src="https://user-images.githubusercontent.com/50725648/83348766-cb433500-a372-11ea-955e-3b7dda660f9a.png)" align="left"
+<img src="https://user-images.githubusercontent.com/50725648/83348766-cb433500-a372-11ea-955e-3b7dda660f9a.png" align="left"
 width="300" hspace="8" vspace="8">
 
     
